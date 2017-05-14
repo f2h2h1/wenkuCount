@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>haha123[{"id":"123","count":"9"}]

@@ -1,0 +1,20 @@
+[ 2016-07-31T22:49:22+08:00 ] ::1 /thinkphp/index.php/IdCount/?id=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018784s ]
+

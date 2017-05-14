@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+        <script src="pageCount.js"></script>
+        <script>
+           var id = "asd23";
+           var current = wenkuCounter.read(id, function(count){});
+           console.log(current);
+           var lastest = wenkuCounter.view(id, function(count){});
+           console.log(lastest);
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
