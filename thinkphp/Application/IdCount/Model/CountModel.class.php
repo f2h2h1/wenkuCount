@@ -18,13 +18,13 @@ class CountModel extends Model {
     private function init_cache()
     {
         /*从平台获取数据库名*/
-        $dbname = "njhvhYpbOfVneyxtFKdg"; //数据库名称
+        $dbname = ""; //数据库名称
 
         /*从环境变量里取host,port,user,pwd*/
-        $host = 'redis.duapp.com';
-        $port = '80';
-        $user = '6981715a84e536d3b1324095b193ad90'; //用户AK
-        $pwd = '3ad0a637c332cb2b635f6d4cef0a180b';  //用户SK
+        $host = '';
+        $port = '';
+        $user = ''; //用户AK
+        $pwd = '';  //用户SK
 
         $redis = new \Redis();
         $ret = $redis->connect($host, $port);
