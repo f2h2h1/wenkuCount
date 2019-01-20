@@ -13,10 +13,12 @@ view 返回值为 +1 后的最新计数
 read 返回值为当前计数（不进行 +1 ）    
 fromCacheToDatabase 是同步数据库用的    
 #### crond
+```sh
 crond :    
   service : on    
   crontab :    
     - "0 3 * * * curl http://localhost/thinkphp/index.php/IdCount/index/fromCacheToDatabase"    
+```
 #### 功能
 程序每次被调用时，将对应ID的计数值 +1    
 调用    
